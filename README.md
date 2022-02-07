@@ -1,4 +1,4 @@
-### RandomCharacterGenerator
+# RandomCharacterGenerator
 
 ## How to use
 To use the Character Generator, download all associating files. You can replace every image used in /BodyParts with your own drawings. You may then run the program using CharacterGeneratorRunner.java. Replacing `int numRun;` with a integer, x, will cause the program to run x amount of times.
@@ -10,7 +10,7 @@ Documentation below
 **Important:** When replacing images with your own, make sure every image is the same pixel width x height. If not, this could cause issues, such as overlays not working properly.
 
 ## How it works
-# CharacterGenerator 
+### CharacterGenerator 
 works by randomly choosing an body part image from an array of images. It then will overlay each image. The following is the order at which images are placed
 
 1. Background
@@ -27,6 +27,6 @@ Between each body part selection, a temp.png file is created that the next body 
 The "." after each type is important for the CharacterGeneratorReader to function properly. The program will delete temp.png after the new .png is created. 
 Because temp.png is deleted, multiple iterations of the program are permitted. 
 
-# CharacterGeneratorReader
+### CharacterGeneratorReader
 works by reading the names of the files in GeneratedArt/. It then returns each body part with a number, x, next to it where x = the number of times this part is present in generated art. Can be used to determine generated art rarity.
 
