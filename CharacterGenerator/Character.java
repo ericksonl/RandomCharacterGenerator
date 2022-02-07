@@ -21,7 +21,7 @@ public class Character extends RareCalc {
     private static double conePercent;
     private static double eyesPercent;*/
 
-    private static String cPath = "CharacterGenerator/GeneratedArt/";
+    private static String cPath = "RandomCharacterGenerator/CharacterGenerator/GeneratedArt/";
 
     public static String getFileName () {return fileName;}
     
@@ -47,7 +47,6 @@ public class Character extends RareCalc {
             ImageIO.write(img, "png", new File(cPath + fileName));    
         }
     }
-
     
     private static File fileHelper (File fileIn) {
         File[] fileInFiles = fileIn.listFiles(); //created an array of the files in the specified folder
@@ -58,7 +57,7 @@ public class Character extends RareCalc {
     }
 
     private static File selectBackground () throws IOException {
-        File background = fileHelper(new File("CharacterGenerator/BodyParts/Backgrounds/"));  //select the background folder director
+        File background = fileHelper(new File("RandomCharacterGenerator/CharacterGenerator/BodyParts/Backgrounds/"));  //select the background folder director
         return selectSkin(background);
     }
 

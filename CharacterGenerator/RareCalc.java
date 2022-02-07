@@ -16,7 +16,7 @@ public class RareCalc extends Merge{
     public static String rareChance () { 
         Random rand = new Random();
         int rareChance = (rand.nextInt(100));  //generate random # 0-99
-        StringBuilder rFolder = new StringBuilder("CharacterGenerator/BodyParts/"); 
+        StringBuilder rFolder = new StringBuilder("RandomCharacterGenerator/CharacterGenerator/BodyParts/"); 
         rarity = "";//resets rarity
 
         if (rareChance <= 49) {
