@@ -22,7 +22,7 @@ public class TraitCalc {
     //Looks in a direct (CharacterGenerator/GeneratedArt)
     
     public static void numFileCalc () {
-        File f = new File("RandomCharacterGenerator/CharacterGenerator/GeneratedArt");
+        File f = new File("CharacterGenerator/GeneratedArt");
         File[] files = f.listFiles(); //creates an array of all the art in /GeneratedArt
         int numFiles = files.length;
         String part;

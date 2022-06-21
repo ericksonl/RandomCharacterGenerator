@@ -38,8 +38,8 @@ public class Merge {
     //so that write image does not have to be called repeatedly 
     private static File tempImage(BufferedImage img) throws IOException {
         //convert bufferedimage img to a file 
-        ImageIO.write(img, "png", new File("RandomCharacterGenerator/CharacterGenerator/GeneratedArt/Temp.png"));
-        File tempImg = new File("RandomCharacterGenerator/CharacterGenerator/GeneratedArt/Temp.png");
+        ImageIO.write(img, "png", new File("CharacterGenerator/GeneratedArt/Temp.png"));
+        File tempImg = new File("CharacterGenerator/GeneratedArt/Temp.png");
         
         //return the new file
         return tempImg;
