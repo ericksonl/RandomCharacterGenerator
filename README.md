@@ -4,6 +4,8 @@
 
 Random Character Generator is a program that allows you to generate unique characters by randomly combining different body parts. The program selects images for the background, skin, shirt, mouth, eyes, and cone from an array of images. Each body part is overlaid to create a distinctive character. The generator supports multiple rarities for each body part, including common, uncommon, rare, and legendary.
 
+I also recreated this project using JavaScript which you can see on [my website](https://www.liamedev.com/code/RCG/)
+
 ## How to use
 
 1. Download all the associated files.
